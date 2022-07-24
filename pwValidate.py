@@ -1,5 +1,4 @@
 #  Created by Justin McQueen
-#  CMIS 102:6981
 #  24 July 2022
 #  This program prompts a user for their password.  It must be between 10 and 20 characters will no spaces
 #  There must be at least one digit and one letter.  The program will display errors for the user to correct.
@@ -71,11 +70,3 @@ if len_check is True and char_check is True and space_check is True:
     print('Your password is good to go!')
 else:
     print('Your password is not sufficient.  Please see the error above and try again.')
-
-
-
-
-
-
-
-
